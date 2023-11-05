@@ -13,10 +13,29 @@
 //
 // No hints this time ;)
 
-// I AM NOT DONE
+
+
+//use core::num;
 
 // Put your function here!
-// fn calculate_price_of_apples {
+
+use std::io;
+
+fn calculate_price_of_apples(num:i32)->i32{
+    if num>40{
+        num
+    }else{
+        num*2
+    }
+}
+
+
+fn main (){
+    calculate_price_of_apples(35);
+    calculate_price_of_apples(40);
+    calculate_price_of_apples(41);
+    calculate_price_of_apples(65);
+}
 
 // Don't modify this function!
 #[test]
